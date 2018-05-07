@@ -7,7 +7,7 @@ API endpoints:
 
 It uses the thread safe `ExpiringMap`[1] to automatically invalidate transactions older than 60 seconds.
 
-It also uses the `AtomicLong`[2] and `AtomicDouble`[3] to ensure the generation of statistics is thread safe too.
+It also uses `AtomicLong`[2] and `AtomicDouble`[3] to ensure the generation of statistics is thread safe too.
 
 -------------------------------------------
 
