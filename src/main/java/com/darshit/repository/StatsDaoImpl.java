@@ -114,7 +114,7 @@ public class StatsDaoImpl implements StatsDao {
 
 	/**
 	 * Returns statistics for the transactions generated in the last 60 seconds
-	 * 
+	 * Executes in O(1) time and space as per requirement 
 	 */
 	@Override
 	public Statistics getStatistics() {
