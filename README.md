@@ -35,7 +35,7 @@ It returns the HTTP Status Code `201` if the transaction is valid, and `204` if 
     "count": 2
 }
 ```
-which are the statistics of the transactions occuring within the last 60 seconds
+which are the statistics of the transactions occuring within the last 60 seconds.
 
 [1]: https://github.com/jhalterman/expiringmap
 
