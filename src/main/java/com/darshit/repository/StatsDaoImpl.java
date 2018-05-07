@@ -30,6 +30,9 @@ public class StatsDaoImpl implements StatsDao {
 
 	private static final Logger LOGGER = Logger.getLogger(StatsDaoImpl.class.getName());
 
+	/**
+	 * Returns true if the transaction is valid, false otherwise
+	 */
 	@Override
 	public boolean verifyTransaction(Transaction transaction) {
 
