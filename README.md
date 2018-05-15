@@ -1,5 +1,7 @@
 # RealTimeStats
 
+###### Challenge details: https://drive.google.com/file/d/0ByZz7te0reC7OGktN3A3MXBQS2xQRTREajRoakNaVVdJRnlr/view?usp=drivesdk
+
 API endpoints:
 
 * `POST`: `/transactions` should be called every time a transaction is executed
